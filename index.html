@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="body">
+  <section>
+  	<div class="header">
+  		<h1 class="h1">Crie e compartilhe seu evento.</h1>
+  		<p class="p"><strong>O primeiro passo, é preencher esse formulário de inscrição.</strong></p>
+  	</div>
+  </section>
+  <div class="campo">
+  	<p class="littletitulo"><strong>Informações do evento</strong></p>
+    <hr class="hr">
+    <label class="label">Título do evento <p class="textocinza">(mínimo 8 caracteres)</p></label>
+    <textarea class="input" type="text"></textarea>
+    <label class="label">Link do evento <p class="textocinza">(comece com https://)</p></label>
+    <textarea class="input" type="text"></textarea>
+    <label class="label">Whatsapp para contato <p class="textocinza">(somente números)</p></label>
+    <textarea class="input" type="number"></textarea>
+    <label class="label">Informações extras</label>
+    <textarea class="input_maior" type="text"></textarea>
+    <label class="label">Categoria</label>
+    <select class="selectarea">
+      <option>Tipo do Evento</option>
+    </select>
+    <p class="littletitulo"><strong>Privacidade</strong></p>
+    <hr class="hr">
+    <label class="label">E-mail do administrador<p class="textocinza">(Digite um email válido)</p></label>
+    <textarea class="input" type="text"></textarea>
+    <label class="label">Senha de acesso para os participantes<p class="textocinza">(mínimo 8 caracteres)</p></label>
+    <textarea class="input" type="text"></textarea>
+    <div class="checkbox">
+      <input type="checkbox" class="check">
+      <label class="label2">Evento privado</label>
+    </div>
+    <p class="littletitulo"><strong>Dia e hora</strong></p>
+    <hr class="hr">
+    <div class="data">
+      <div class="campo-data">
+        <label class="label">Data</label>
+        <input class="input2" type="text">
+      </div>
+      <div class="campo-data">
+        <label class="label">Das</label>
+        <input class="input3" placeholder="19:00" type="text">
+      </div>
+      <div class="campo-data">
+        <label class="label">Até</label>
+        <input class="input3" placeholder="20:00" type="text">
+      </div>
+    </div>
+    <div class="rodape-formulario">
+      <button class="botao-evento">Salvar evento</button>
+    </div>
+  </div>
+</body>
+</html>
