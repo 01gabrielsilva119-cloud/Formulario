@@ -34,7 +34,7 @@
 .campo {
   margin-left: 252px;
   width: 736px;
-  margin-top: -145px;
+  margin-top: -115px;
   margin-bottom: 145px;
   background-color: #ffffff;
   padding-left: 54px;
@@ -74,6 +74,8 @@
 }
 
 .hr {
+  border: none;
+  border-top: 1px solid #e6e6f0;
   margin-bottom: 27px;
 }
 
@@ -208,4 +210,8 @@
 
 .botao-evento:hover {
   background-color: #03bd57;
+}
+
+.red {
+  border-color: #ff0000;
 }
